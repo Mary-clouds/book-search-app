@@ -1,5 +1,5 @@
 // This component renders a list of books.
-import React from 'react';
+
 import BookCard from './BookCard';
 
 const BookList = ({ books }) => {

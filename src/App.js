@@ -1,5 +1,4 @@
-// src/App.js
-import React, { useState } from 'react';
+import { useState } from 'react';
 import axios from 'axios';
 import BookSearch from './components/BookSearch';
 import BookList from './components/BookList';
@@ -45,6 +44,7 @@ const App = () => {
 
   return (
     <div className="app">
+      <h1 className="title">📚 Book Finder APP</h1>
       <BookSearch onSearch={(query, category) => fetchBooks(query, category)} />
       {loading && (
         <div className="loading">

@@ -1,5 +1,5 @@
 //handeling pagination controls
-import React from 'react';
+
 
 const Pagination = ({ currentPage, totalPages, onPageChange }) => {
   const handlePageChange = (newPage) => {

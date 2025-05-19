@@ -1,5 +1,4 @@
 // displaying individual book details
-import React from 'react';
 
 const BookCard = ({ book }) => {
   return (

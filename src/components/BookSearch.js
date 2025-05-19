@@ -1,5 +1,5 @@
 //handles user input and triggers the search.
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const BookSearch = ({ onSearch }) => {
   const [query, setQuery] = useState('');
@@ -11,10 +11,10 @@ const BookSearch = ({ onSearch }) => {
   };
 
   return (
-    <form onSubmit={handleSearch}>
+    <form className='search-form'  onSubmit={handleSearch}>
       <input
         type="text"
-        placeholder="Search for books"
+        placeholder="Enter a Title, author or subject..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
