@@ -170,3 +170,28 @@ button:hover {
   }
   
 }
+@media(max-width: 360){
+  .search-form  input,
+  .search-form select{
+    width: 50%;
+  }
+  button{
+    width: 50%;
+  }
+   .pagination {
+    flex-direction: column;
+    gap: 6px;
+   
+  }
+  .book-card img {
+    height: 120px;
+  }
+  
+  .book-card h3 {
+    font-size: 8px;
+  }
+  .title{
+    width: 15px;
+  }
+
+}
